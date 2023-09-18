@@ -1,2 +1,3 @@
 def make_snippet(text):
-    return text
+    words = text.split()
+    return " ".join(words[:5]) + (" ..." if len(words) > 5 else "")
