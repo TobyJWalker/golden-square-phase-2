@@ -22,14 +22,14 @@ def test_reading_time_spaces():
 def test_reading_time_number():
     with pytest.raises(TypeError) as e:
         estimate_reading_time(1)
-    return str(e.value) == "Argument must be a string"
+    assert str(e.value) == "Argument must be a string"
 
 def test_reading_time_none():
     with pytest.raises(TypeError) as e:
         estimate_reading_time(None)
-    return str(e.value) == "Argument must be a string"
+    assert str(e.value) == "Argument must be a string"
 
 def test_reading_time_list():
     with pytest.raises(TypeError) as e:
         estimate_reading_time(['this', 'is', 'a', 'list'])
-    return str(e.value) == "Argument must be a string"
+    assert str(e.value) == "Argument must be a string"
