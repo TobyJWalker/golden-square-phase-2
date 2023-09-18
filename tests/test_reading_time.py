@@ -12,3 +12,6 @@ def test_reading_time_two_hundred_words():
 
 def test_reading_time_hundred_words():
     assert estimate_reading_time(hundred_word_text) == 0.5
+
+def test_reading_time_empty():
+    assert estimate_reading_time("") == 0

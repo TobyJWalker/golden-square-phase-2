@@ -50,6 +50,13 @@ return 0
 estimate_reading_time("") => 0
 
 """
+Given a text with spaces
+return 0
+"""
+estimate_reading_time("   ") => 0
+
+"""
+"""
 Given a non-string value
 return an error
 """
