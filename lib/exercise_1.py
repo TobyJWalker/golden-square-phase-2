@@ -1,2 +1,2 @@
-def make_snippet():
-    pass
+def make_snippet(text):
+    return text
