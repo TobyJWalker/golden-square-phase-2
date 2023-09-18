@@ -1,4 +1,4 @@
-from lib.challenge_1 import *
+from lib.count_words import *
 
 '''
 A function called count_words that takes a string as an argument
