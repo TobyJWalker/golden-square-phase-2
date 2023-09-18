@@ -1,2 +1,3 @@
 def count_words(text):
-    pass
+    word_list = text.split()
+    return len(word_list)
