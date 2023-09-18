@@ -43,6 +43,8 @@ Given a string
 Check if the last character is a punctuation mark
 """
 check_grammar("Hello.") => True
+check_grammar("Hello!") => True
+check_grammar("Hello?") => True
 check_grammar("Hello") => False
 
 """
