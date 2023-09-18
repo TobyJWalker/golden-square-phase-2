@@ -1,1 +1,2 @@
-def
+def make_snippet():
+    pass
