@@ -11,3 +11,6 @@ def test_make_snippet_five_words():
 
 def test_make_snippet_six_words():
     assert make_snippet("test test test test test test") == "test test test test test ..."
+
+def test_make_snippet_ten_words():
+    assert make_snippet("test test test test test test test test test test") == "test test test test test ..."
