@@ -1,2 +1,2 @@
 import pytest
-from grammar_checker.py import *
+from lib.grammar_checker import *
